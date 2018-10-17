@@ -1,4 +1,5 @@
-﻿#define GLUT_DISABLE_ATEXIT_HACK
+﻿/*
+#define GLUT_DISABLE_ATEXIT_HACK
 
 #include <windows.h>
 #include <iostream>
@@ -85,7 +86,7 @@ void Initialize() {
 	InitVectorY(_Y);
 }
 
-int main(int argc, char ** argv) {
+int main1(int argc, char ** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(WinWidth, WinHeight);
@@ -96,3 +97,5 @@ int main(int argc, char ** argv) {
 	glutMainLoop();
 	return 0;
 }
+
+*/
